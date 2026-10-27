@@ -1,0 +1,14 @@
+{
+  "serial": {"port": "COM3", "baud": 921600, "timeout_s": 0.2},
+  "signal": {
+    "sample_rate_hz": 200.0,
+    "bandpass_hz": [1.0, 40.0],
+    "bandpass_order": 4,
+    "notch_hz": 50.0,
+    "notch_q": 30.0,
+    "rms_window_s": 1.0,
+    "welch_window_s": 2.0
+  },
+  "display": {"window_s": 5, "vertical_uv": 200.0, "buffer_s": 30},
+  "quality": {"flat_std_uv": 0.5, "high_rms_uv": 200.0, "rail_uv": 15000.0}
+}

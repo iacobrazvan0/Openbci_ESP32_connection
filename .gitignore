@@ -1,0 +1,6 @@
+.pio/
+.vscode/
+dashboard/.venv/
+dashboard/**/__pycache__/
+dashboard/.pytest_cache/
+dashboard/recordings/
